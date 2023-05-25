@@ -4,7 +4,9 @@ import axios from 'axios'
 function App() {
   const [location, setLocation] = useState('')
   const [data, setData] = useState({})
-  const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=9b9f5b8c5d216d5a62f39179d9f31656&units=imperial`
+  const apiKey = import.meta.env.VITE_API_KEY
+
+  const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=imperial`
 
   
   const handleSearch=async (event) => {
