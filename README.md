@@ -15,5 +15,6 @@ This project is a working weather app where the user needs to type a location an
 - Responsive
 - Fullscreen mode
 - Cross platform
-
+## Tech
+Made using [React JS](https://react.dev/learn) and [OpenWeatherAPI](https://openweathermap.org/current)
 ## [Live App](https://646efd0c423fed0487f7f03f--idyllic-entremet-d20fcd.netlify.app/)
