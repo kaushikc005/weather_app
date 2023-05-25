@@ -22,20 +22,3 @@ This project is a working weather app where the user needs to type a location an
 - Cross platform
 
 
-## API Reference
-
-### API Link
-https://openweathermap.org/current
-
-#### Get weather of a location
-
-```http
-  GET https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=imperial`
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `location` | `string` | **Required**. Location to fetch weather|
-| `api_key` | `string` | **Required**. Your API key |
-
-
